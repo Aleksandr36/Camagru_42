@@ -5,7 +5,7 @@
     <div id="camera">
         <div id='div_video'>
             <div id='overlay'>
-                <p id="overlay_msg">T&eacute;l&eacute;загрузить фото &agrave; traiter</p>
+                <p id="overlay_msg">Загрузить фото</p>
                 <img id='id_sticker' style="width:100%"  />
             </div>
             <video id='video'></video>
@@ -32,7 +32,7 @@
             <input style="display: none" type="file" name="fileToUpload" id="fileToUpload" accept="image/*" onchange="loadFile(event)">
 			<input type="text" name="sticker" value="" id="sticker_id" style="display: none">
             <input type="text" name="src" value="coucou" style="display: none;">
-            <input type="submit" value="Valider" id="uploadbutton" name="submit" >
+            <input type="submit" value="Подтвердить" id="uploadbutton" name="submit" >
         </form>
         </br>
         <canvas id="canvas"></canvas>

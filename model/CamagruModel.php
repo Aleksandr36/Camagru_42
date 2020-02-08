@@ -61,12 +61,12 @@ function ft_user_check($login, $passwd)
 	   $db = null;
 	   return false;
    }
-   else if ($data['active'] === '0')
-   {
-	   $_SESSION['error'] = "Ваша учетная запись еще не активирована";
-	   $db = null;
-	   return false; 	
-   }
+ //  else if ($data['active'] === '0')
+ //  {
+//	   $_SESSION['error'] = "Ваша учетная запись еще не активирована";
+//	   $db = null;
+//	   return false; 	
+   //}
    else	
    {
 	   $_SESSION['login'] = $login;
