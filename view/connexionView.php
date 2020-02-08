@@ -17,7 +17,7 @@
 						<td><input type="password" name="passwd" placeholder="Пароль"></td>
 					</tr>
 					<tr>
-						<td><input type="submit" name="submit" value="Войти"</td>
+						<td><input type="submit" name="submit" value="Войти"></td>
 					</tr>
 					<tr>
 						<td><br/><hr></td>				

@@ -45,7 +45,6 @@ h1 {
 }
 
 h2 {
-	color: #EF626C;
 	text-align: center;
 	font-size: 35px;
 	padding-top: 15px;
@@ -87,7 +86,7 @@ input[type="button"] {
 #hr_title{
 	width: 70%;
 	height:1px;
-	background-color: #EF626C;
+	background-color: black;
 	border: none;
 
 }
@@ -452,7 +451,7 @@ td.dropdown {
 #modal_info hr {
 	width: 100%;
 	height:1px;
-	background-color: #EF626C;
+	background-color: black;
 	border: none;
 }
 
@@ -478,7 +477,7 @@ td.dropdown {
 
 #modal_info #like {
 	font-size: 18px;
-	color: #EF626C;
+	color: black;
 	width:10px; 
 	text-align:center;
 
@@ -513,7 +512,7 @@ td.dropdown {
 }
 
 #connexion a{
-	color: #EF626C;
+	color: ;
 
 }
 #connexion a:hover{
@@ -546,7 +545,7 @@ td.dropdown {
 
 #connexion hr {
 	height:1px;
-	background-color: #4B4453;
+	background-color: black;
 	border: none;
 }
 
@@ -559,6 +558,7 @@ td.dropdown {
 
 #connexion input[type="submit"]:hover{
 	background-color: #EF626C;
+	text-shadow: red 0 0 2px;
 	color: #FCF8FF ;
 	font-weight: bold;
 }
@@ -637,8 +637,7 @@ td.dropdown {
 #profile #modify_profile{display:block}
 #profile #modify_profile_2{display:none}
 .login {
-	color: #EF626C;
-	font-family: 'Amatic SC', cursive;
+	color: black;
 	font-size: 35px;
 	font-weight: bold;
 }

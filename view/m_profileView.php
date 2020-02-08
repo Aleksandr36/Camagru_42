@@ -17,7 +17,7 @@
 		</tr>
 		<tr><td><br/></td></tr>
 		<tr>
-			<td id="col1">Bio@@</td>
+			<td id="col1">Описание</td>
 			<td><textarea style="height:80px;" type="text" name="bio"><?= $profile['bio']?></textarea></td>
 		</tr>
 		<tr><td><br/></td></tr>
