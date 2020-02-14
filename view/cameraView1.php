@@ -1,8 +1,8 @@
 <?php ob_start(); ?>
-	<div>
+    <div>
         <table class="header">
-          <td><h2><a href="../camera.php" style=" font-weight: bold; transform: scale(1.3); text-decoration: none;">Сделать фото</a></h2></td>
-          <td><h2><a href="../camera1.php" style=" font-weight: bold; transform: scale(1.3); text-decoration: none;">Загрузить фото</a></h2></td> 
+          <td><h2><a style=" font-weight: bold; transform: scale(1.3); text-decoration: none;" href="../camera.php">Сделать фото</a></h2></td>
+          <td><h2><a style=" font-weight: bold; transform: scale(1.3); text-decoration: none;" href="../camera1.php">Загрузить фото</a></h2></td>  
         </table> 
     </div>
     <hr id="hr_title"/>
@@ -25,20 +25,21 @@
             ?>
         </div>
         </br>
-        <form method="POST" enctype="multipart/form-data" id="picture_take"> 
+       <form method="POST" enctype="multipart/form-data" id="picture_up">
+            <label for="fileToUpload" >Выберите фото</label>
+            <input style="display: none" type="file" name="fileToUpload" id="fileToUpload" accept="image/*" onchange="loadFile(event)">
             <input type="text" name="sticker" value="" id="sticker_id" style="display: none">
-            <input type="text" name="src" value="" style="display: none;">
-            <input type="submit" id="take_btn" value="">
+            <input type="submit" value="Подтвердить" id="uploadbutton" name="submit" >
         </form>
-     </br>
-        <canvas id="canvas"></canvas>
+        </br>
+       
         <div id='camera_gallery'>
-            <img style="display:none" id="photo" alt="photo">
+            <img id="photo" alt="photo">
         </div>
     </div>
  
 
-<script src="./public/js/camera.js"></script>
+<script src="./public/js/camera1.js"></script> 
 
 <script>
     var loadFile = function(event) {

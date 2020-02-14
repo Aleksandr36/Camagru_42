@@ -17,6 +17,6 @@ $stickers = get_stickers();
 
 $day = get_day($today);
 
-require('view/cameraView.php');
+require('view/cameraView1.php');
 
 ?>

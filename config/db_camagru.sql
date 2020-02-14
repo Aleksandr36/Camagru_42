@@ -93,7 +93,7 @@ INSERT INTO `likes` (`id_like`, `id_user`, `id_img`, `date`, `active`, `id_profi
 -- --------------------------------------------------------
 
 --
--- Structure de la table `picture`
+-- Структура таблицы `picture`
 --
 
 CREATE TABLE `picture` (
@@ -105,7 +105,7 @@ CREATE TABLE `picture` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Déchargement des données de la table `picture`
+-- Выгрузка данных из таблицы `picture`
 --
 
 INSERT INTO `picture` (`id_img`, `id_user`, `img`, `date`, `like`) VALUES
