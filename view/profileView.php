@@ -6,7 +6,7 @@
 			<td><input id="modify_profile" onclick="window.location.href='./modify_profile.php?page=1'" type="button" value="Редактировать профиль"></td>
 		</tr>
 		<tr>
-			<td id="count_picture"  ></td>
+			<td id="count_picture" ></td>
 			<td id="count_like" ></td>
 			<td id="count_com" ></td>
 		</tr>

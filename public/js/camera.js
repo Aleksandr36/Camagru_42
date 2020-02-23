@@ -63,7 +63,7 @@ function callback_webcam(data)
     }
   }
 
-  startbutton.addEventListener('click', function(ev){
+  take_btn.addEventListener('click', function(ev){
       takepicture();
     ev.preventDefault();
   }, false);
@@ -76,9 +76,9 @@ function callback_webcam(data)
       alert("Пожалуйста, загрузите изображение")
     else if (layer_id.src === "" )
       alert("Пожалуйста, выберите наклейку для наложения")
-    else
+       else
     {
-      document.getElementsByName("sticker")[1].value = layer_id.src
+      document.getElementsByName("sticker")[1].value = layer_id.src;
 
       var form = document.getElementById('picture_up');
       var data = new FormData(form);
@@ -88,10 +88,6 @@ function callback_webcam(data)
     }
   }
 
-  uploadbutton.addEventListener('click', function(ev){
-    uploadpicture();
-  ev.preventDefault();
-  }, false);
 
   var layersCont = document.getElementById('div_stickers').getElementsByTagName('img');
   Array.prototype.forEach.call(layersCont, function (e) {
@@ -106,7 +102,4 @@ function callback_webcam(data)
       e.style.border = 'solid 1px #EF626C'
     })
   })
-
-
 })();
-

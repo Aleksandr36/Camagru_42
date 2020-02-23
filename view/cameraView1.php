@@ -25,16 +25,17 @@
             ?>
         </div>
         </br>
-       <form method="POST" enctype="multipart/form-data" id="picture_up">
+       <form method="POST" enctype="multipart/form-data" id="picture_up" action="../model/addWebcam.php">
             <label for="fileToUpload" >Выберите фото</label>
-            <input style="display: none" type="file" name="fileToUpload" id="fileToUpload" accept="image/*" onchange="loadFile(event)">
+            <input style="display: none" type="file" name="fileToUpload" id="fileToUpload"  onchange="loadFile(event)">
             <input type="text" name="sticker" value="" id="sticker_id" style="display: none">
+            <input type="text" name="src" value="coucou" style="display: none;">
             <input type="submit" value="Подтвердить" id="uploadbutton" name="submit" >
         </form>
         </br>
        
         <div id='camera_gallery'>
-            <img id="photo" alt="photo">
+            <img style="display:none" id="photo" alt="photo">
         </div>
     </div>
  
